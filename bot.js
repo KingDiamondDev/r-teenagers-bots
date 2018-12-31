@@ -1,6 +1,11 @@
 var Discord = require('discord.io');
 var logger = require('winston');
 var auth = require('./auth.json');
+var fs = require('fs');
+
+const truths = fs.readFileSync('resources/truth.txt').toString().split("\n");
+const dares = fs.readFileSync('resources/dare.txt').toString().split("\n");
+
 // Configure logger settings
 logger.remove(logger.transports.Console);
 logger.add(new logger.transports.Console, {
@@ -12,6 +17,7 @@ var bot = new Discord.Client({
    token: auth.token,
    autorun: true
 });
+
 bot.on('ready', function (evt) {
     logger.info('Connected');
     logger.info('Logged in as: ');
@@ -22,24 +28,26 @@ bot.on('message', function (user, userID, channelID, message, evt) {
     // It will listen for messages that will start with `!`
     if (message.substring(0, 1) == '!') {
         var args = message.substring(1).split(' ');
-        var cmd = args[0];
+        var cmd = args[0].toLowerCase();
        
         args = args.splice(1);
         switch(cmd) {
             // !truth
-            case 'Truth':
+            case 'truth':
+            	var item=truths[Math.floor(Math.random()*truths.length)]
                 bot.sendMessage({
                     to: channelID,
-                    message: 'What is the most wholesome thing you have ever done'
+                    message: item
                 });
             break;
             // !dare
-	    case 'Dare':
-		bot.sendMessage({
-		    to: channelID,
-		    message: 'I dare you to yell yeet at the top of your voice'
-		});
-	    break;	
+	    	case 'dare':
+	    		var item=dares[Math.floor(Math.random()*dares.length)]
+				bot.sendMessage({
+				    to: channelID,
+				    message: item
+				});
+		    break;	
          }
      }
 });
