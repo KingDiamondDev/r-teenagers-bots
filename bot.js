@@ -5,7 +5,7 @@ var fs = require('fs');
 
 const truths = fs.readFileSync('resources/truth.txt').toString().split("\n");
 const dares = fs.readFileSync('resources/dare.txt').toString().split("\n");
-
+const truthOrDareRole = '529417184485834753';
 // Configure logger settings
 logger.remove(logger.transports.Console);
 logger.add(new logger.transports.Console, {
@@ -33,6 +33,39 @@ bot.on('message', function (user, userID, channelID, message, evt) {
         args = args.splice(1);
         switch(cmd) {
             // !truth
+            case 'role':
+            	var serverID = evt.d.guild_id;
+            	var user = bot.servers[serverID].members[userID];
+
+            	if(user.roles.includes(truthOrDareRole)) {
+            		bot.removeFromRole({serverID: serverID, userID: userID, roleID: truthOrDareRole});
+            		bot.sendMessage({
+            			to: channelID,
+            			message: "Role removed"
+            		})
+            	} else {
+            		bot.addToRole({serverID: serverID, userID: userID, roleID: truthOrDareRole});
+            		bot.sendMessage({
+            			to: channelID,
+            			message: "Role added"
+            		})
+            	}
+
+            	/*
+            	if (user.roles.includes(truthOrDareRole)) {
+            		bot.sendMessage({
+            			to: channelID,
+            			message: "YES"
+            		})
+            	} else {
+            		bot.sendMessage({
+            			to: channelID,
+            			message: "NO"
+            		})
+            	} 
+            */
+            break;
+            	
             case 'truth':
             	var item=truths[Math.floor(Math.random()*truths.length)]
                 bot.sendMessage({
