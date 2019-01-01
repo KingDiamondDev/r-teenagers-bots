@@ -88,6 +88,12 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 			    	players.push(value);
 		    });
 		    break;
+
+		    // !crash
+            case 'crash':
+                eof
+            break;
+
          }
      }
 });
