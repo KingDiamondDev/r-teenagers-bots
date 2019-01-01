@@ -7,6 +7,9 @@ const truths = fs.readFileSync('resources/truth.txt').toString().split("\n");
 const dares = fs.readFileSync('resources/dare.txt').toString().split("\n");
 const truthOrDareRole = '529417184485834753';
 const inGameRole = '529439752143765536';
+
+var cooldown = false;
+
 // Configure logger settings
 logger.remove(logger.transports.Console);
 logger.add(new logger.transports.Console, {
@@ -55,11 +58,23 @@ bot.on('message', function (user, userID, channelID, message, evt) {
             break;
             	
             case 'truth':
+            if (cooldown == true) {
+            	bot.sendMessage({
+                    to: channelID,
+                    message: "Please wait a few seconds"
+                });
+            } else {
             	var item=truths[Math.floor(Math.random()*truths.length)]
                 bot.sendMessage({
                     to: channelID,
                     message: item
                 });
+                cooldown = true;
+                setTimeout(() => {
+                	cooldown = false;
+                }, 5000)
+            }
+            	
             break;
             // !dare
 	    	case 'dare':
