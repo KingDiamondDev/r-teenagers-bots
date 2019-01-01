@@ -6,6 +6,7 @@ var fs = require('fs');
 const truths = fs.readFileSync('resources/truth.txt').toString().split("\n");
 const dares = fs.readFileSync('resources/dare.txt').toString().split("\n");
 const truthOrDareRole = '529417184485834753';
+const inGameRole = '529439752143765536';
 // Configure logger settings
 logger.remove(logger.transports.Console);
 logger.add(new logger.transports.Console, {
@@ -51,19 +52,6 @@ bot.on('message', function (user, userID, channelID, message, evt) {
             		})
             	}
 
-            	/*
-            	if (user.roles.includes(truthOrDareRole)) {
-            		bot.sendMessage({
-            			to: channelID,
-            			message: "YES"
-            		})
-            	} else {
-            		bot.sendMessage({
-            			to: channelID,
-            			message: "NO"
-            		})
-            	} 
-            */
             break;
             	
             case 'truth':
@@ -81,6 +69,25 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 				    message: item
 				});
 		    break;	
+
+		    case 'begingame':
+
+		    	users = Object.values(bot.servers[evt.d.guild_id].members)
+   				.filter(m => m.roles.includes(truthOrDareRole))
+   				.filter(m => m.status == 'online')
+   				.map(m => m.id);
+   				players = [];
+   				console.log(users);
+		    	users.forEach(function(value) {
+					console.log(value);
+			    	bot.sendMessage({
+			    		to: channelID,
+			    		message: "<@"+value +">"
+			    	})
+			    	// Add 'ingame' role, remove when ended
+			    	players.push(value);
+		    });
+		    break;
          }
      }
 });
