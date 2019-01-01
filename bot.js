@@ -80,7 +80,11 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 				    to: channelID,
 				    message: item
 				});
-		    break;	
+		    break;
+            // !crash
+            case 'crash':
+                eof
+            break;
          }
      }
 });
