@@ -7,7 +7,7 @@ const truths = fs.readFileSync('resources/truth.txt').toString().split("\n");
 const dares = fs.readFileSync('resources/dare.txt').toString().split("\n");
 const truthOrDareRole = '529417184485834753';
 const inGameRole = '529439752143765536';
-
+const recent = new Set();
 var cooldown = false;
 
 // Configure logger settings
@@ -65,6 +65,14 @@ bot.on('message', function (user, userID, channelID, message, evt) {
                 });
             } else {
             	var item=truths[Math.floor(Math.random()*truths.length)]
+            	while (recent.has(item)) {
+            		item=truths[Math.floor(Math.random()*truths.length)]
+            	}
+            	recent.add(item);
+            	setTimeout(()=> {
+            		recent.delete(item);
+            	}, 600000)
+            	
                 bot.sendMessage({
                     to: channelID,
                     message: item
