@@ -61,7 +61,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
             if (cooldown == true) {
             	bot.sendMessage({
                     to: channelID,
-                    message: "Please wait a few seconds"
+                    message: "```Please wait a few seconds, no spam!```"
                 });
             } else {
             	var item=truths[Math.floor(Math.random()*truths.length)]
