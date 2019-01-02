@@ -72,7 +72,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
             	setTimeout(()=> {
             		recent.delete(item);
             	}, 600000)
-            	
+
                 bot.sendMessage({
                     to: channelID,
                     message: item
@@ -86,10 +86,16 @@ bot.on('message', function (user, userID, channelID, message, evt) {
             break;
             // !dare
 	    	case 'dare':
+	    	/*
 	    		var item=dares[Math.floor(Math.random()*dares.length)]
 				bot.sendMessage({
 				    to: channelID,
 				    message: item
+				});
+			*/
+			bot.sendMessage({
+				    to: channelID,
+				    message: "Come on you can't do dares"
 				});
 		    break;	
 
