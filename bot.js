@@ -6,6 +6,10 @@ var fs = require('fs');
 const truths = fs.readFileSync('resources/truth.txt').toString().split("\n");
 const dares = fs.readFileSync('resources/dare.txt').toString().split("\n");
 const truthOrDareRole = '529417184485834753';
+const inGameRole = '529439752143765536';
+const recent = new Set();
+var cooldown = false;
+
 // Configure logger settings
 logger.remove(logger.transports.Console);
 logger.add(new logger.transports.Console, {
@@ -51,40 +55,74 @@ bot.on('message', function (user, userID, channelID, message, evt) {
             		})
             	}
 
-            	/*
-            	if (user.roles.includes(truthOrDareRole)) {
-            		bot.sendMessage({
-            			to: channelID,
-            			message: "YES"
-            		})
-            	} else {
-            		bot.sendMessage({
-            			to: channelID,
-            			message: "NO"
-            		})
-            	} 
-            */
             break;
             	
             case 'truth':
+            if (cooldown == true) {
+            	bot.sendMessage({
+                    to: channelID,
+                    message: "```Please wait a few seconds, no spam!```"
+                });
+            } else {
             	var item=truths[Math.floor(Math.random()*truths.length)]
+            	while (recent.has(item)) {
+            		item=truths[Math.floor(Math.random()*truths.length)]
+            	}
+            	recent.add(item);
+            	setTimeout(()=> {
+            		recent.delete(item);
+            	}, 600000)
+
                 bot.sendMessage({
                     to: channelID,
                     message: item
                 });
+                cooldown = true;
+                setTimeout(() => {
+                	cooldown = false;
+                }, 5000)
+            }
+            	
             break;
             // !dare
 	    	case 'dare':
+	    	/*
 	    		var item=dares[Math.floor(Math.random()*dares.length)]
 				bot.sendMessage({
 				    to: channelID,
 				    message: item
 				});
+			*/
+			bot.sendMessage({
+				    to: channelID,
+				    message: "Come on you can't do dares"
+				});
+		    break;	
+
+		    case 'begingame':
+
+		    	users = Object.values(bot.servers[evt.d.guild_id].members)
+   				.filter(m => m.roles.includes(truthOrDareRole))
+   				.filter(m => m.status == 'online')
+   				.map(m => m.id);
+   				players = [];
+   				console.log(users);
+		    	users.forEach(function(value) {
+					console.log(value);
+			    	bot.sendMessage({
+			    		to: channelID,
+			    		message: "<@"+value +">"
+			    	})
+			    	// Add 'ingame' role, remove when ended
+			    	players.push(value);
+		    });
 		    break;
-            // !crash
+
+		    // !crash
             case 'crash':
                 eof
             break;
+
          }
      }
 });

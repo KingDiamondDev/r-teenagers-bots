@@ -1,4 +1,4 @@
-What is the most wholesome thing you have ever done?
+﻿What is the most wholesome thing you have ever done?
 What's your most embarrassing memory?
 What's the worst thing you've ever done to a friend?
 What was the last thing you searched for on your phone?
@@ -20,7 +20,6 @@ Did your parents ever give you the “birds and the bees” talk?
 What is your guilty pleasure?
 What is your worst habit?
 Has anyone ever walked in on you when going #2 in the bathroom?
-Have you ever had a wardrobe malfunction?
 Have you ever walked into a wall?
 Do you pick your nose?
 Do you sing in the shower?
@@ -34,8 +33,8 @@ Have you ever tried to take a sexy picture of yourself?
 Do you sleep with a stuffed animal?
 Do you drool in your sleep?
 Do you talk in your sleep?
+How often do you watch porn (if you do)?
 Who is your secret crush?
-Do you think [fill in the name] is cute?
 Who do you like the least in this room and why?
 What does your dream boy or girl look like?
 What is your go-to song for the shower?
@@ -106,7 +105,6 @@ Do you sleep with a stuffed animal?
 Do you own a pair of footie pajamas?
 Are you scared of the dark?
 What ‘As seen on TV’ product do you secretly want to buy?
-Do you still take bubble baths?
 If you were home by yourself all day, what would you do?
 How many selfies do you take a day?
 What is something you’ve done to try to be ‘cooler’?
@@ -128,12 +126,12 @@ Do you write in a diary?
 What is the worst date you’ve ever been on?
 Have you ever had a crush on a friend’s boyfriend/girlfriend?
 If you had to make out with a boy at school, who would it be?
-Would you rather go for a month without washing your hair or go for a day without wearing a bra?
+Would you rather go for a month without washing your hair or go for a day without wearing underwear?
 Have you ever asked someone out?
 Have you ever had a crush on a person at least 10 years older than you?
 Who is the worst kisser you’ve kissed?
 What size is your bra?
-Do you wear tighty whities or granny panties?
+What's the best kind of underwear?
 Do you ever admire yourself in the mirror?
 Has a crush ever found out you liked them and turned you down?
 Have you ever been stood up on a date?
@@ -151,22 +149,19 @@ Who is your celebrity crush?
 If you could change one thing about your body, what would it be?
 Who was your first kiss? Did you like it?
 Who are you jealous of?
-If you could be another girl at our school, who would you be?
-Would you kiss a guy on the first date? Would you do more than that?
-Who are the top 5 cutest guys in our class? Rank them.
+If you could be another girl in our server, who would you be?
+Would you kiss a guy/girl on the first date? Would you do more than that?
 How many kids do you want to have in the future?
 Who do you hate the most?
 If you could go out on a date with a celebrity, who would it be?
-If you were stranded on a deserted island, who would you want to be stranded with from our school?
+If you were stranded on a deserted island, who would you want to be stranded with from our server?
 Have you ever flirted with your best friend’s siblings?
 Have you ever been dumped? What was the reason for it?
 Jock, nerd, or bad guy?
-Have you ever had a crush on friend's boyfriend?
 Who is your first pick for prom?
-What's the sexiest thing about a guy?
-What's the sexiest thing about a girl?
+What's the sexiest thing about a guy/girl?
 What's one physical feature that you would change on yourself if you could?
-Would you rather be a guy than a girl? Why?
+Would you rather be a guy or a girl? Why?
 Describe your dream career.
 If you could eat anything you wanted without getting fat, what would that food be?
 If you had to do a gameshow with someone in this room, who would you pick?
@@ -176,6 +171,7 @@ If you could only wear one hairstyle for the rest of your life, would you choose
 You have to give up one makeup item for the rest of your life. What is it?
 Would you date someone shorter than you?
 If someone paid you $1000 to wear your bra outside your shirt, would you do it?
+<<<<<<< HEAD
 What is your least favorite thing about family gatherings?
 What is your favorite thing about family gatherings?
 What is a secret that you kept from your parents when you were growing up?
@@ -337,6 +333,52 @@ Have you ever cried during a movie? If so, which one?
 What is something you wish you were better at?
 Have you ever broken something and blamed someone else?
 When was the last time you did something nice for someone else?
+=======
+ Who was your first crush?
+Among all the people in this room, which girl/guy would you like to date?
+If you woke up one day and noticed that you were invisible, what would be the first thing that you would like to do?
+If you were marooned on an island with just a single person, who would you like it to be?
+Have you ever lied to your boyfriend/girlfriend? If yes, about what?
+If you were to be born again, what would you like to be?
+When did you have your first kiss?
+What is the strangest dream you have ever had?
+Would you ever cheat on your girlfriend/boyfriend?
+If you had only 24 hours left to live, what would you do?
+If you get a chance to make anyone in this room your slave, who would you like that to be?
+If you win a lottery of 100 million dollars, what would you do with the money?
+What is the question that you don't want anyone to ask you in this game?
+If you were a vegetable, which one would you like to be?
+Have you ever shop-lifted?
+What is the worst rumor you have spread about someone else?
+What was the last thing you searched for on your phone?
+Have you ever tried to take a sexy picture of yourself?
+What would be in your web history that you’d be embarrassed if someone saw?
+Would you rather lose your sex organs forever or gain 200 pounds?
+Has your boyfriend or girlfriend ever embarrassed you?
+Have you ever thought about cheating on your partner?
+The world ends next week and you can do anything you want (even if it's illegal). What would you do?
+Do you still take bubble baths?
+Who was your first kiss? Did you like it?
+Would you kiss a guy on the first date? Would you do more than that?
+How many kids do you want to have in the future?
+Who would you hate to see naked?
+What is your crush's personality like?
+Have you ever sent someone the wrong text?
+Have you ever cursed at your parents? Why?
+How far would you go on a first date?
+Describe what makes someone husband or wife material.
+If you could make $1 million, would you drop out of school?
+What is your worst habit?
+What's one thing you do that you don't want anyone to know about?
+Do you frequently stalk anyone on social media? Who?
+If you had to choose between dating someone ugly who was good in bed or dating someone hot who was bad in bed, which would you choose?
+What is your biggest turn-off?
+If you had to choose between being poor and smart or being rich and dumb, what would you choose?
+What have you lied to your partner about?
+Have you ever cheated on your partner?
+If someone you didn't like had a crush on you, how would you act around her?
+What is your greatest fear in a relationship?
+>>>>>>> 007ef6ff9846051215a791ad51c105757bb164b3
 What is something you've always wanted to try but have been too scared of?
 If you were a king of your own kingdom, what would be your first order?
 If you could trade places with anybody in the world, would you do it? If yes, who would it be?
@@ -346,5 +388,57 @@ Which cartoon character do you resemble the most?
 What's the maximum amount you think you can survive without your cell phone?
 Would you rather be able to play any musical instrument in the world or speak with animals?
 Would you rather be the most popular or the smartest kid at school?
+<<<<<<< HEAD
 If you had to audition for 'The Voice', which song would you choose to sing?
 *Well fuck me cause I only had erotic ones left so not putting those here*
+=======
+What would you do if you lived in the body of someone of the opposite sex for one day?
+What is the most shameful thing you've done in your life?
+Have you ever been so high or drunk that you were speaking with objects?
+If you make your phone or keys fall in the toilets, would you put your hand in it to get it back?
+What is the worst thing you've ever done to somebody?
+Who's the most inappropriate person you've ever fantasized about?
+What is that one secret you kept from your parents while you growing up?
+Have you ever tried to flirt your teacher for getting more marks?
+What is your dirty habit that nobody knows?
+Have you ever cried like a baby while watching a movie?
+Would you really forget your previous crush completely?
+Explain what are the five major qualities required for your future wife/husband.
+Have you ever felt jealous of your brother/sister?
+Have you ever felt bad about your family background?
+Do you like to sleep in the afternoons?
+Do you really believe in Love At First Sight?
+How many secrets do you hide from your crush/bf/gf till now?
+Have you ever tried for weight loss or weight gain?
+What are the three things that make you relax when you’re in a sad mood?
+What's your guilty pleasure?
+Would you date an ex?
+Have you ever stolen anything in your life?
+Do you have a dark secret no one knows?
+If you are given a chance to make a change in yourself, what will it be?
+Have you ever been cheated on?
+How many people have you kissed?
+What's the biggest lie you've told?
+What's something you secretly like but are embarrassed by?
+If you were the opposite sex for an hour, what would you do?
+List all the things in your room that you have made some attempt to hide.
+What's the most embarrassing thing you've been to the doctor for?
+What’s the 1st thing you will do if you are the President of your country for a day?
+Have you done drugs Do you still?
+If you only have 24 hrs to live, how would you spend it?
+What do you collect that no one knows about?
+Have you ever cheated on a test?
+Which person here knows something about you that you wouldn't want revealed?
+What was the last thing you photographed with your phone?
+Have you ever pretended to be older or younger than you are to be able to do something?
+Have you ever been in trouble with the police?
+What’s your idea of a perfect date?
+Would you use a dating website?
+Would you break up with someone by sending them a text?
+Are you a virgin?
+What are the three most important qualities you look for in a friend?
+If your parents went out of town for a week and you had the house to yourself, what would you do?
+What is your weight?
+Did you ever spread a nasty rumor about someone else?
+If you were asked to make one of the people in this room your slave, who would you choose and why?
+>>>>>>> 007ef6ff9846051215a791ad51c105757bb164b3
