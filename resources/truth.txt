@@ -8,10 +8,10 @@ After you've dropped a piece of food, what's the longest time you've left it on 
 Have you ever tasted a booger?
 What's the first thing you would do if you woke up one day as the opposite sex?
 Have you ever peed in the pool?
-Who do you think is the worst dressed person in this room?
+Who do you think is the worst dressed person in this server?
 Have you ever farted in an elevator?
 True or false? You have a crush on [fill in the blank].
-Of the people in this room, who do you want to trade lives with?
+Of the people in this server, who do you want to trade lives with?
 What are some things you think about when sitting on the toilet?
 Did you have an imaginary friend growing up?
 Do you cover your eyes during a scary part in a movie?
@@ -35,16 +35,16 @@ Do you drool in your sleep?
 Do you talk in your sleep?
 How often do you watch porn (if you do)?
 Who is your secret crush?
-Who do you like the least in this room and why?
+Who do you like the least in this server and why?
 What does your dream boy or girl look like?
 What is your go-to song for the shower?
-Who is the sexiest person in this room?
+Who is the sexiest person in this server?
 How would you rate your looks on a scale of 1 to 10?
 Would you rather have sex with [insert name] in secret or not have sex with that person but everyone thinks you did?
 What don't you like about me?
 What color underwear are you wearing right now?
 What was the last thing you texted?
-If you were rescuing people from a burning building and you had to leave one person behind from this room, who would it be?
+If you were rescuing people from a burning building and you had to leave one person behind from this server, who would it be?
 Do you think you'll marry your current girlfriend/boyfriend?
 How often do you wash your undergarments?
 Have you ever tasted ear wax?
@@ -60,7 +60,7 @@ Would you rather lose your sex organs forever or gain 200 pounds?
 Would you choose to save 100 people without anyone knowing about it or not save them but have everyone praise you for it?
 If you could only hear one song for the rest of your life, what would it be?
 If you lost one day of your life every time you said a swear word, would you try not to do it?
-Who in this room would be the worst person to date? Why?
+Who in this server would be the worst person to date? Why?
 Would you rather live with no internet or no A/C or heating?
 If someone offered you $1 million dollars to break up with your girlfriend/boyfriend, would you do it?
 If you were reborn, what decade would you want to be born in?
@@ -147,7 +147,7 @@ What’s the most embarrassing thing you’ve said or done in front of someone y
 What part of your body do you love and which part do you hate?
 Who is your celebrity crush?
 If you could change one thing about your body, what would it be?
-Who was your first kiss? Did you like it?
+Who/when was your first kiss? Did you like it?
 Who are you jealous of?
 If you could be another girl in our server, who would you be?
 Would you kiss a guy/girl on the first date? Would you do more than that?
@@ -164,14 +164,13 @@ What's one physical feature that you would change on yourself if you could?
 Would you rather be a guy or a girl? Why?
 Describe your dream career.
 If you could eat anything you wanted without getting fat, what would that food be?
-If you had to do a gameshow with someone in this room, who would you pick?
+If you had to do a gameshow with someone in this server, who would you pick?
 Would you go a year without your phone if it meant you could marry the person of your dreams?
 You are going to be stuck on a dessert island and you can only bring five things. List them.
 If you could only wear one hairstyle for the rest of your life, would you choose curly hair or straight hair?
 You have to give up one makeup item for the rest of your life. What is it?
 Would you date someone shorter than you?
 If someone paid you $1000 to wear your bra outside your shirt, would you do it?
-<<<<<<< HEAD
 What is your least favorite thing about family gatherings?
 What is your favorite thing about family gatherings?
 What is a secret that you kept from your parents when you were growing up?
@@ -334,7 +333,7 @@ What is something you wish you were better at?
 Have you ever broken something and blamed someone else?
 When was the last time you did something nice for someone else?
 Who was your first crush?
-Among all the people in this room, which girl/guy would you like to date?
+Among all the people in this server, which girl/guy would you like to date?
 If you woke up one day and noticed that you were invisible, what would be the first thing that you would like to do?
 If you were marooned on an island with just a single person, who would you like it to be?
 Have you ever lied to your boyfriend/girlfriend? If yes, about what?
@@ -343,7 +342,7 @@ When did you have your first kiss?
 What is the strangest dream you have ever had?
 Would you ever cheat on your girlfriend/boyfriend?
 If you had only 24 hours left to live, what would you do?
-If you get a chance to make anyone in this room your slave, who would you like that to be?
+If you get a chance to make anyone in this server your slave, who would you like that to be?
 If you win a lottery of 100 million dollars, what would you do with the money?
 What is the question that you don't want anyone to ask you in this game?
 If you were a vegetable, which one would you like to be?
@@ -377,7 +376,6 @@ What have you lied to your partner about?
 Have you ever cheated on your partner?
 If someone you didn't like had a crush on you, how would you act around her?
 What is your greatest fear in a relationship?
->>>>>>> 007ef6ff9846051215a791ad51c105757bb164b3
 What is something you've always wanted to try but have been too scared of?
 If you were a king of your own kingdom, what would be your first order?
 If you could trade places with anybody in the world, would you do it? If yes, who would it be?
@@ -436,4 +434,21 @@ What are the three most important qualities you look for in a friend?
 If your parents went out of town for a week and you had the house to yourself, what would you do?
 What is your weight?
 Did you ever spread a nasty rumor about someone else?
-If you were asked to make one of the people in this room your slave, who would you choose and why?
+If you were asked to make one of the people in this server your slave, who would you choose and why?
+Do you have a crush at the moment?
+What’s the scariest thing you’ve ever done?
+Have you ever done something embarrassing while drunk? Describe.
+If you could change one thing about your life, what would it be?
+Have you ever been in love?
+What’s something in your web browsing history that you’d be embarrassed if someone saw?
+When was the last time you cried and why?
+Have you ever been so drunk you blacked out?
+What’s the most embarrassing thing your parents have caught you doing?
+What’s the weirdest thing you’ve done when you were alone?
+What’s the cruelest thing you’ve ever done to a boyfriend or girlfriend?
+How old were you when your parents sat you down for “the talk” and what did they say (or not say) about “the birds and the bees”?
+What’s the biggest dating disappointment you’ve experienced so far?
+What is your middle name?
+Have you ever had a crush on your best friend?
+Have you ever watched someone while they were changing or showering?
+Have you ever gone skinny-dipping?
