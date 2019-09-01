@@ -1,6 +1,5 @@
 var Discord = require('discord.io');
 var logger = require('winston');
-var auth = require('./auth.json');
 var fs = require('fs');
 
 const truths = fs.readFileSync('resources/truth.txt').toString().split("\n");
